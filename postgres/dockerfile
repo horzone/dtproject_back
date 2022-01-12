@@ -1,0 +1,6 @@
+FROM postgres:13
+ENV POSTGRES_USER=postgres \
+	POSTGRES_USER=postgres \
+	POSTGRES_PASSWORD=password \
+	POSTGRES_DB=dev-school
+EXPOSE 5432
